@@ -71,4 +71,4 @@ iPhone and iPad running iOS 26.1 or later.
 
 ---
 
-<sub>ShortKeys — text expansion, text expander, custom keyboard, snippets, and canned replies for iPhone and iPad.</sub>
+_ShortKeys — text expansion, text expander, custom keyboard, snippets, and canned replies for iPhone and iPad._

@@ -1,0 +1,54 @@
+# ShortKeys
+
+> ShortKeys is a text expansion keyboard for iPhone and iPad. Save the things you type on repeat behind short triggers and drop them into any app with a few taps.
+
+Available now on the App Store.
+
+Key facts:
+
+- Platform: iPhone and iPad, iOS 26.1 or later
+- Price: free with 10 ShortKeys; a one-off tip adds 5 more; the Annual plan (£7.99 a year) unlocks unlimited ShortKeys
+- Privacy: data stays on the device and in the user's own iCloud; the developer collects no data
+- Developer: Mat Benfield (thechelsuk), made in the UK
+
+## Links
+
+- [ShortKeys website](https://shortkeys.thechels.uk/): the official marketing site
+- [App Store](https://apps.apple.com/gb/app/shortkeys-text-expansion/id6755919256): download the app
+- [Privacy policy](https://thechels.uk/app/privacy): what the app does and does not collect
+- [Project page](https://thechels.uk/projects/shortkeys): background from the developer
+
+## Features
+
+- Custom keyboard that expands snippets in any app
+- Multi-line snippets for emails, addresses, replies and code
+- iCloud sync across iPhone and iPad
+- Tags, search and a one-tap favourites bar
+- Deep links and Apple Shortcuts support
+
+## FAQ
+
+### What is a text expander?
+
+A text expander lets you type a short trigger, like addr, that instantly expands into longer text, like your full postal address, so you stop typing the same things over and over.
+
+### Does ShortKeys work in every app?
+
+Yes. ShortKeys is a custom iOS keyboard, so your snippets are available in any app where you can type.
+
+### How much does ShortKeys cost?
+
+It's free to download with 10 ShortKeys included. A one-off tip adds 5 more, and the Annual plan at £7.99 a year unlocks unlimited ShortKeys and the one-tap favourites bar.
+
+### Is my data private?
+
+Yes. Everything stays on your device and in your own iCloud account. The developer collects no data from the app.
+
+### Which devices are supported?
+
+iPhone and iPad running iOS 26.1 or later.
+
+## Optional
+
+- [Site source on GitHub](https://github.com/thechelsuk/uk.thechels.shortkeys): static HTML and CSS for this site
+- [More apps by thechelsuk](https://thechels.uk/projects): the developer's other apps and projects

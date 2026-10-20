@@ -8,6 +8,8 @@
     <meta name="apple-itunes-app" content="app-id=6755919256">
     <meta name="description"
       content="ShortKeys is a text expansion keyboard for iPhone and iPad. Save the things you type on repeat and drop them into any app with a few taps.">
+    <meta name="author" content="thechelsuk">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://shortkeys.thechels.uk/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="ShortKeys">
@@ -29,22 +31,110 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "ShortKeys: Text Expansion",
-        "url": "https://shortkeys.thechels.uk/",
-        "image": "https://shortkeys.thechels.uk/images/shortkeys-icon.jpg",
-        "description": "ShortKeys is a text expansion keyboard for iPhone and iPad. Create custom ShortKeys that expand into emails, addresses, replies, code snippets and more as you type.",
-        "operatingSystem": "iOS",
-        "applicationCategory": "Productivity",
-        "downloadUrl": "https://apps.apple.com/gb/app/shortkeys-text-expansion/id6755919256",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "GBP"
-        }
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://thechels.uk/#person",
+            "name": "Mat Benfield",
+            "alternateName": "thechelsuk",
+            "url": "https://thechels.uk/",
+            "sameAs": [
+              "https://links.thechels.uk/",
+              "https://github.com/thechelsuk",
+              "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://shortkeys.thechels.uk/#website",
+            "url": "https://shortkeys.thechels.uk/",
+            "name": "ShortKeys",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://thechels.uk/#person"
+            }
+          },
+          {
+            "@type": "MobileApplication",
+            "@id": "https://shortkeys.thechels.uk/#app",
+            "name": "ShortKeys: Text Expansion",
+            "url": "https://shortkeys.thechels.uk/",
+            "image": "https://shortkeys.thechels.uk/images/shortkeys-icon.jpg",
+            "description": "ShortKeys is a text expansion keyboard for iPhone and iPad. Create custom ShortKeys that expand into emails, addresses, replies, code snippets and more as you type.",
+            "operatingSystem": "iOS",
+            "applicationCategory": "Productivity",
+            "downloadUrl": "https://apps.apple.com/gb/app/shortkeys-text-expansion/id6755919256",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "GBP"
+            },
+            "inLanguage": "en-GB",
+            "featureList": [
+              "Custom keyboard that expands snippets in any app",
+              "Multi-line snippets for emails, addresses, replies and code",
+              "iCloud sync across iPhone and iPad",
+              "Tags, search and a one-tap favourites bar",
+              "Deep links and Apple Shortcuts support"
+            ],
+            "author": {
+              "@id": "https://thechels.uk/#person"
+            },
+            "publisher": {
+              "@id": "https://thechels.uk/#person"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://shortkeys.thechels.uk/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is a text expander?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A text expander lets you type a short trigger, like addr, that instantly expands into longer text, like your full postal address, so you stop typing the same things over and over."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does ShortKeys work in every app?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. ShortKeys is a custom iOS keyboard, so your snippets are available in any app where you can type."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How much does ShortKeys cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "It's free to download with 10 ShortKeys included. A one-off tip adds 5 more, and the Annual plan at £7.99 a year unlocks unlimited ShortKeys and the one-tap favourites bar."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is my data private?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Everything stays on your device and in your own iCloud account. The developer collects no data from the app."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which devices are supported?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "iPhone and iPad running iOS 26.1 or later."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
     <link rel="icon" href="./images/shortkeys-icon.jpg" type="image/jpeg">
+    <link rel="apple-touch-icon" href="images/shortkeys-icon.jpg">
     <link rel="stylesheet" href="./styles.css">
     <title>ShortKeys — stop typing the same thing twice</title>
   </head>
@@ -233,6 +323,35 @@
               <li>Support ongoing development</li>
             </ul>
           </article>
+        </div>
+      </section>
+
+      <section class="faq section container" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading">
+          <p class="eyebrow">Questions</p>
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>What is a text expander?</summary>
+            <p>A text expander lets you type a short trigger, like addr, that instantly expands into longer text, like your full postal address, so you stop typing the same things over and over.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does ShortKeys work in every app?</summary>
+            <p>Yes. ShortKeys is a custom iOS keyboard, so your snippets are available in any app where you can type.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How much does ShortKeys cost?</summary>
+            <p>It&#x27;s free to download with 10 ShortKeys included. A one-off tip adds 5 more, and the Annual plan at £7.99 a year unlocks unlimited ShortKeys and the one-tap favourites bar.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is my data private?</summary>
+            <p>Yes. Everything stays on your device and in your own iCloud account. The developer collects no data from the app.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which devices are supported?</summary>
+            <p>iPhone and iPad running iOS 26.1 or later.</p>
+          </details>
         </div>
       </section>
 
